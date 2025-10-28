@@ -77,8 +77,10 @@ a:focus {
 
 .map-link:hover,
 .map-link:focus {
-    background-color: #003d80;
+    background-color: #0069d9;
     text-decoration: none;
+    outline: 3px solid #003d80;
+    outline-offset: 1px;
 }
 
 .map-link:visited {
@@ -130,4 +132,6 @@ address {
     padding-top: 20px;
 }
 
-#
+#page-footer p {
+    margin: 5px 0; 
+}
