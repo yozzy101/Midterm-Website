@@ -85,12 +85,7 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-}
-
-/* --- THIS IS THE NEW RULE TO CENTER THE IMAGE --- */
-#event-intro img {
-    display: block;
-    margin: 20px auto 5px auto; /* Sets top/bottom margin and auto left/right */
+    margin-top: 15px; /* Added a little space above the image */
 }
 
 .attribution {
@@ -99,6 +94,11 @@ img {
     text-align: center;
     font-style: italic;
     margin-top: 0;
+}
+
+/* This one line centers the intro text and image */
+#event-intro {
+    text-align: center;
 }
 
 #schedule ul {
