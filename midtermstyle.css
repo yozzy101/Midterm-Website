@@ -81,11 +81,15 @@ a:focus {
     text-decoration: none;
 }
 
+.map-link:visited {
+    color: #ffffff;
+}
+
 img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    margin-top: 15px; /* Added a little space above the image */
+    margin-top: 15px;
 }
 
 .attribution {
@@ -96,7 +100,6 @@ img {
     margin-top: 0;
 }
 
-/* This one line centers the intro text and image */
 #event-intro {
     text-align: center;
 }
@@ -127,6 +130,4 @@ address {
     padding-top: 20px;
 }
 
-#page-footer p {
-    margin: 5px 0; 
-}
+#
