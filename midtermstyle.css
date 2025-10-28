@@ -1,32 +1,16 @@
-/* --- Global Styles & Accessibility --- */
-
-/* * Design Best Practice: Use box-sizing for more intuitive layout management.
- */
 * {
     box-sizing: border-box;
 }
 
 body {
-    /* * Accessibility Best Practice: Use readable, sans-serif fonts.
-     * Design Best Practice: Good line-height for readability.
-     */
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    
-    /* * Design Best Practice: High contrast (dark grey text on light grey bg).
-     */
     color: #333;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
-/* --- Layout & Design --- */
-
-/* * Design Best Practice: Use a max-width for readable line length 
- * on wide screens and margin: auto to center the content.
- * This container class is applied to header, main, and footer.
- */
 header,
 main,
 #page-footer {
@@ -34,10 +18,6 @@ main,
     max-width: 800px;
     margin: 20px auto;
     padding: 25px;
-    
-    /* * Design Best Practice: Using white space (padding) and separation
-     * (background-color, border-radius) to create a clean, uncluttered layout.
-     */
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -45,17 +25,12 @@ main,
 
 header {
     text-align: center;
-    border-bottom: 3px solid #b22222; /* Fire-engine red accent */
+    border-bottom: 3px solid #b22222; 
 }
 
-/* --- Typography & Visual Hierarchy --- */
-
-/* * Design Best Practice: Clear visual hierarchy.
- * Headings are distinct from body text.
- */
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #b22222; /* Dark red for headings */
+    color: #b22222; 
     line-height: 1.2;
 }
 
@@ -73,102 +48,26 @@ h2 {
 
 h3 {
     font-size: 1.4rem;
-    color: #444; /* Slightly less prominent than h2 */
+    color: #444; 
     margin-top: 25px;
 }
 
-/* --- Links & Usability --- */
-
 a {
-    color: #0056b3; /* Accessible blue */
+    color: #0056b3; 
     text-decoration: none;
 }
 
-/* * Usability/Accessibility Best Practice: Clear :hover and :focus 
- * states for links, ensuring keyboard navigation is possible.
- */
 a:hover,
 a:focus {
     color: #003d80;
     text-decoration: underline;
-    outline: 2px solid #0056b3; /* Clear focus indicator */
+    outline: 2px solid #0056b3; 
 }
 
-/* * Usability Best Practice: Making links look interactive.
- * This button-like link is for Google Maps.
- */
 .map-link {
     display: inline-block;
     background-color: #0056b3;
     color: #ffffff;
     padding: 12px 20px;
     border-radius: 5px;
-    font-weight: bold;
-    margin-top: 15px;
-    text-decoration: none;
-}
-
-.map-link:hover,
-.map-link:focus {
-    background-color: #003d80;
-    text-decoration: none;
-}
-
-/* --- Images & Media --- */
-
-/* * Design Best Practice: Responsive images that scale with the container.
- */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-/* Required: Image attribution styling */
-.attribution {
-    font-size: 0.8rem;
-    color: #777;
-    text-align: center;
-    font-style: italic;
-    margin-top: 0;
-}
-
-/* --- Specific Section Styling --- */
-
-/* * Web Writing Best Practice: Styling lists for scannability.
- * Using padding for indentation and margin for spacing.
- */
-#schedule ul {
-    list-style-type: disc;
-    padding-left: 30px;
-}
-
-#schedule li {
-    margin-bottom: 8px;
-}
-
-/* * Accessibility Best Practice: Styling the <address> tag
- * for clear presentation of location info.
- */
-address {
-    font-style: normal;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
-}
-
-/* * Required: Styling the footer using its ID selector.
- */
-#page-footer {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #666;
-    border-top: 2px solid #eee;
-    margin-top: 30px;
-    padding-top: 20px;
-}
-
-#page-footer p {
-    margin: 5px 0; /* Tighter spacing for footer text */
-}
+    font-weight: bold
